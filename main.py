@@ -98,7 +98,7 @@ class Post(db.Model):
     oper_ado = db.Column(db.String(300), nullable=False)
 
 
-@main.route('/main')
+@main.route('/index')
 def index():
     return render_template('index.html')
 
